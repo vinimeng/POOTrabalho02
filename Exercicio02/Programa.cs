@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Exercicio01
+namespace Exercicio02
 {
-    internal static class Program
+    internal static class Programa
     {
         /// <summary>
         /// Ponto de entrada principal para o aplicativo.
@@ -16,7 +16,7 @@ namespace Exercicio01
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new JanelaPrincipal());
         }
     }
 }

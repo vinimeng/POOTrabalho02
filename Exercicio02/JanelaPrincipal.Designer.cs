@@ -1,6 +1,6 @@
-﻿namespace Exercicio01
+﻿namespace Exercicio02
 {
-    partial class Form1
+    partial class JanelaPrincipal
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -28,10 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(JanelaPrincipal));
+            this.SuspendLayout();
+            // 
+            // JanelaPrincipal
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "JanelaPrincipal";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
