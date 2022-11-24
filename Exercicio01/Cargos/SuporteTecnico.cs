@@ -2,12 +2,7 @@
 {
     internal class SuporteTecnico : Funcionario
     {
-        public SuporteTecnico(string nome, string matricula, double salarioBase)
-        {
-            Nome = nome;
-            Matricula = matricula;
-            SalarioBase = salarioBase;
-        }
+        public SuporteTecnico(string nome, string matricula, double salarioBase) : base(nome, matricula, salarioBase) { }
 
         public override double CalculaSalario()
         {

@@ -6,6 +6,13 @@
         protected string Matricula;
         protected double SalarioBase;
 
+        public Funcionario(string nome, string matricula, double salarioBase)
+        {
+            Nome = nome;
+            Matricula = matricula;
+            SalarioBase = salarioBase;
+        }
+
         public abstract double CalculaSalario();
 
         public string GetNome()
