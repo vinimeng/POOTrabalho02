@@ -18,6 +18,11 @@ namespace Exercicio01.Cargos
             Bonus = bonus;
         }
 
+        public double GetBonus()
+        {
+            return Bonus;
+        }
+
         public override double CalculaSalario()
         {
             return SalarioBase + Bonus;

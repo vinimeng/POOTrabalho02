@@ -45,8 +45,8 @@
             this.groupBoxFunc = new System.Windows.Forms.GroupBox();
             this.listBoxFunc = new System.Windows.Forms.ListBox();
             this.groupBoxFolhaSalarial = new System.Windows.Forms.GroupBox();
-            this.richTextBoxGerarFolha = new System.Windows.Forms.RichTextBox();
             this.buttonGerar = new System.Windows.Forms.Button();
+            this.richTextBoxGerarFolha = new System.Windows.Forms.RichTextBox();
             this.groupBoxAddFunc.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numBonus)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numSalarioBase)).BeginInit();
@@ -70,11 +70,11 @@
             this.groupBoxAddFunc.Controls.Add(this.labelMatricula);
             this.groupBoxAddFunc.Controls.Add(this.textBoxNome);
             this.groupBoxAddFunc.Controls.Add(this.labelNome);
-            this.groupBoxAddFunc.Location = new System.Drawing.Point(9, 10);
-            this.groupBoxAddFunc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBoxAddFunc.Location = new System.Drawing.Point(12, 12);
+            this.groupBoxAddFunc.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBoxAddFunc.Name = "groupBoxAddFunc";
-            this.groupBoxAddFunc.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBoxAddFunc.Size = new System.Drawing.Size(242, 258);
+            this.groupBoxAddFunc.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxAddFunc.Size = new System.Drawing.Size(323, 318);
             this.groupBoxAddFunc.TabIndex = 0;
             this.groupBoxAddFunc.TabStop = false;
             this.groupBoxAddFunc.Text = "Adicionar funcionário";
@@ -82,22 +82,23 @@
             // buttonAddFunc
             // 
             this.buttonAddFunc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.buttonAddFunc.Location = new System.Drawing.Point(39, 221);
-            this.buttonAddFunc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonAddFunc.Location = new System.Drawing.Point(52, 272);
+            this.buttonAddFunc.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonAddFunc.Name = "buttonAddFunc";
-            this.buttonAddFunc.Size = new System.Drawing.Size(137, 28);
+            this.buttonAddFunc.Size = new System.Drawing.Size(183, 34);
             this.buttonAddFunc.TabIndex = 11;
             this.buttonAddFunc.Text = "Adicionar funcionário";
             this.buttonAddFunc.UseVisualStyleBackColor = true;
+            this.buttonAddFunc.Click += new System.EventHandler(this.buttonAddFunc_Click);
             // 
             // buttonLimpar
             // 
             this.buttonLimpar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonLimpar.Location = new System.Drawing.Point(181, 221);
-            this.buttonLimpar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonLimpar.Location = new System.Drawing.Point(241, 272);
+            this.buttonLimpar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonLimpar.Name = "buttonLimpar";
-            this.buttonLimpar.Size = new System.Drawing.Size(56, 28);
+            this.buttonLimpar.Size = new System.Drawing.Size(75, 34);
             this.buttonLimpar.TabIndex = 10;
             this.buttonLimpar.Text = "Limpar";
             this.buttonLimpar.UseVisualStyleBackColor = true;
@@ -111,24 +112,23 @@
             0,
             0,
             131072});
-            this.numBonus.Location = new System.Drawing.Point(7, 190);
-            this.numBonus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numBonus.Location = new System.Drawing.Point(9, 234);
+            this.numBonus.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.numBonus.Maximum = new decimal(new int[] {
             1316134912,
             2328,
             0,
             0});
             this.numBonus.Name = "numBonus";
-            this.numBonus.Size = new System.Drawing.Size(230, 20);
+            this.numBonus.Size = new System.Drawing.Size(307, 22);
             this.numBonus.TabIndex = 9;
             // 
             // labelBonus
             // 
             this.labelBonus.AutoSize = true;
-            this.labelBonus.Location = new System.Drawing.Point(4, 175);
-            this.labelBonus.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelBonus.Location = new System.Drawing.Point(5, 215);
             this.labelBonus.Name = "labelBonus";
-            this.labelBonus.Size = new System.Drawing.Size(72, 13);
+            this.labelBonus.Size = new System.Drawing.Size(92, 16);
             this.labelBonus.TabIndex = 8;
             this.labelBonus.Text = "Bônus salarial";
             // 
@@ -139,20 +139,19 @@
             "Analista",
             "Programador",
             "Suporte Técnico"});
-            this.comboBoxTipoFunc.Location = new System.Drawing.Point(7, 149);
-            this.comboBoxTipoFunc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBoxTipoFunc.Location = new System.Drawing.Point(9, 183);
+            this.comboBoxTipoFunc.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxTipoFunc.Name = "comboBoxTipoFunc";
-            this.comboBoxTipoFunc.Size = new System.Drawing.Size(231, 21);
+            this.comboBoxTipoFunc.Size = new System.Drawing.Size(307, 24);
             this.comboBoxTipoFunc.TabIndex = 7;
             this.comboBoxTipoFunc.SelectedIndexChanged += new System.EventHandler(this.comboBoxTipoFunc_SelectedIndexChanged);
             // 
             // labelTipoFunc
             // 
             this.labelTipoFunc.AutoSize = true;
-            this.labelTipoFunc.Location = new System.Drawing.Point(4, 133);
-            this.labelTipoFunc.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelTipoFunc.Location = new System.Drawing.Point(5, 164);
             this.labelTipoFunc.Name = "labelTipoFunc";
-            this.labelTipoFunc.Size = new System.Drawing.Size(98, 13);
+            this.labelTipoFunc.Size = new System.Drawing.Size(122, 16);
             this.labelTipoFunc.TabIndex = 6;
             this.labelTipoFunc.Text = "Tipo de funcionário";
             // 
@@ -164,60 +163,57 @@
             0,
             0,
             131072});
-            this.numSalarioBase.Location = new System.Drawing.Point(7, 109);
-            this.numSalarioBase.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numSalarioBase.Location = new System.Drawing.Point(9, 134);
+            this.numSalarioBase.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.numSalarioBase.Maximum = new decimal(new int[] {
             1316134912,
             2328,
             0,
             0});
             this.numSalarioBase.Name = "numSalarioBase";
-            this.numSalarioBase.Size = new System.Drawing.Size(230, 20);
+            this.numSalarioBase.Size = new System.Drawing.Size(307, 22);
             this.numSalarioBase.TabIndex = 5;
             // 
             // labelSalarioBase
             // 
             this.labelSalarioBase.AutoSize = true;
-            this.labelSalarioBase.Location = new System.Drawing.Point(4, 93);
-            this.labelSalarioBase.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelSalarioBase.Location = new System.Drawing.Point(5, 114);
             this.labelSalarioBase.Name = "labelSalarioBase";
-            this.labelSalarioBase.Size = new System.Drawing.Size(65, 13);
+            this.labelSalarioBase.Size = new System.Drawing.Size(84, 16);
             this.labelSalarioBase.TabIndex = 4;
             this.labelSalarioBase.Text = "Salário base";
             // 
             // textBoxMatricula
             // 
-            this.textBoxMatricula.Location = new System.Drawing.Point(7, 69);
-            this.textBoxMatricula.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxMatricula.Location = new System.Drawing.Point(9, 85);
+            this.textBoxMatricula.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBoxMatricula.Name = "textBoxMatricula";
-            this.textBoxMatricula.Size = new System.Drawing.Size(231, 20);
+            this.textBoxMatricula.Size = new System.Drawing.Size(307, 22);
             this.textBoxMatricula.TabIndex = 3;
             // 
             // labelMatricula
             // 
             this.labelMatricula.AutoSize = true;
-            this.labelMatricula.Location = new System.Drawing.Point(4, 54);
-            this.labelMatricula.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelMatricula.Location = new System.Drawing.Point(5, 66);
             this.labelMatricula.Name = "labelMatricula";
-            this.labelMatricula.Size = new System.Drawing.Size(52, 13);
+            this.labelMatricula.Size = new System.Drawing.Size(61, 16);
             this.labelMatricula.TabIndex = 2;
             this.labelMatricula.Text = "Matrícula";
             // 
             // textBoxNome
             // 
-            this.textBoxNome.Location = new System.Drawing.Point(7, 30);
-            this.textBoxNome.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxNome.Location = new System.Drawing.Point(9, 37);
+            this.textBoxNome.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBoxNome.Name = "textBoxNome";
-            this.textBoxNome.Size = new System.Drawing.Size(231, 20);
+            this.textBoxNome.Size = new System.Drawing.Size(307, 22);
             this.textBoxNome.TabIndex = 1;
             // 
             // labelNome
             // 
             this.labelNome.AutoSize = true;
-            this.labelNome.Location = new System.Drawing.Point(4, 15);
-            this.labelNome.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelNome.Location = new System.Drawing.Point(5, 18);
             this.labelNome.Name = "labelNome";
-            this.labelNome.Size = new System.Drawing.Size(81, 13);
+            this.labelNome.Size = new System.Drawing.Size(103, 16);
             this.labelNome.TabIndex = 0;
             this.labelNome.Text = "Nome completo";
             // 
@@ -226,68 +222,80 @@
             this.groupBoxFunc.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.groupBoxFunc.Controls.Add(this.listBoxFunc);
-            this.groupBoxFunc.Location = new System.Drawing.Point(255, 10);
-            this.groupBoxFunc.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBoxFunc.Location = new System.Drawing.Point(340, 12);
+            this.groupBoxFunc.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBoxFunc.Name = "groupBoxFunc";
-            this.groupBoxFunc.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBoxFunc.Size = new System.Drawing.Size(242, 258);
+            this.groupBoxFunc.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxFunc.Size = new System.Drawing.Size(323, 318);
             this.groupBoxFunc.TabIndex = 12;
             this.groupBoxFunc.TabStop = false;
             this.groupBoxFunc.Text = "Funcionários";
             // 
             // listBoxFunc
             // 
+            this.listBoxFunc.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.listBoxFunc.FormattingEnabled = true;
-            this.listBoxFunc.Location = new System.Drawing.Point(5, 18);
+            this.listBoxFunc.ItemHeight = 16;
+            this.listBoxFunc.Location = new System.Drawing.Point(7, 22);
+            this.listBoxFunc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.listBoxFunc.Name = "listBoxFunc";
-            this.listBoxFunc.Size = new System.Drawing.Size(232, 225);
+            this.listBoxFunc.Size = new System.Drawing.Size(308, 276);
             this.listBoxFunc.TabIndex = 0;
             // 
             // groupBoxFolhaSalarial
             // 
-            this.groupBoxFolhaSalarial.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
+            this.groupBoxFolhaSalarial.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBoxFolhaSalarial.Controls.Add(this.buttonGerar);
             this.groupBoxFolhaSalarial.Controls.Add(this.richTextBoxGerarFolha);
-            this.groupBoxFolhaSalarial.Location = new System.Drawing.Point(501, 10);
-            this.groupBoxFolhaSalarial.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBoxFolhaSalarial.Location = new System.Drawing.Point(668, 12);
+            this.groupBoxFolhaSalarial.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBoxFolhaSalarial.Name = "groupBoxFolhaSalarial";
-            this.groupBoxFolhaSalarial.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBoxFolhaSalarial.Size = new System.Drawing.Size(242, 258);
+            this.groupBoxFolhaSalarial.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxFolhaSalarial.Size = new System.Drawing.Size(323, 318);
             this.groupBoxFolhaSalarial.TabIndex = 13;
             this.groupBoxFolhaSalarial.TabStop = false;
             this.groupBoxFolhaSalarial.Text = "Folha salarial";
             // 
-            // richTextBoxGerarFolha
-            // 
-            this.richTextBoxGerarFolha.Location = new System.Drawing.Point(6, 18);
-            this.richTextBoxGerarFolha.Name = "richTextBoxGerarFolha";
-            this.richTextBoxGerarFolha.Size = new System.Drawing.Size(231, 192);
-            this.richTextBoxGerarFolha.TabIndex = 0;
-            this.richTextBoxGerarFolha.Text = "";
-            // 
             // buttonGerar
             // 
-            this.buttonGerar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.buttonGerar.Location = new System.Drawing.Point(100, 221);
-            this.buttonGerar.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonGerar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonGerar.Location = new System.Drawing.Point(133, 272);
+            this.buttonGerar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonGerar.Name = "buttonGerar";
-            this.buttonGerar.Size = new System.Drawing.Size(137, 28);
+            this.buttonGerar.Size = new System.Drawing.Size(183, 34);
             this.buttonGerar.TabIndex = 12;
             this.buttonGerar.Text = "Gerar folha";
             this.buttonGerar.UseVisualStyleBackColor = true;
+            this.buttonGerar.Click += new System.EventHandler(this.buttonGerar_Click);
+            // 
+            // richTextBoxGerarFolha
+            // 
+            this.richTextBoxGerarFolha.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.richTextBoxGerarFolha.Location = new System.Drawing.Point(8, 22);
+            this.richTextBoxGerarFolha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.richTextBoxGerarFolha.Name = "richTextBoxGerarFolha";
+            this.richTextBoxGerarFolha.Size = new System.Drawing.Size(307, 235);
+            this.richTextBoxGerarFolha.TabIndex = 0;
+            this.richTextBoxGerarFolha.Text = "";
             // 
             // JanelaPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(752, 280);
+            this.ClientSize = new System.Drawing.Size(1003, 345);
             this.Controls.Add(this.groupBoxFolhaSalarial);
             this.Controls.Add(this.groupBoxFunc);
             this.Controls.Add(this.groupBoxAddFunc);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "JanelaPrincipal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Exercício 01";
             this.groupBoxAddFunc.ResumeLayout(false);
             this.groupBoxAddFunc.PerformLayout();
