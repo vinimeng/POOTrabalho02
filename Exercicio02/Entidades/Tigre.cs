@@ -3,10 +3,10 @@ using System.Drawing;
 
 namespace Exercicio02.Entidades
 {
-    internal class Cachorro : NPC
+    internal class Tigre : NPC
     {
         private Color Cor;
-        public Cachorro(Color cor) : base()
+        public Tigre(Color cor) : base()
         {
             Cor = cor;
         }

@@ -55,7 +55,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entidades\Cachorro.cs" />
+    <Compile Include="Entidades\Tigre.cs" />
     <Compile Include="Entidades\Humano.cs" />
     <Compile Include="Entidades\IEntidade.cs" />
     <Compile Include="Entidades\Jogador.cs" />
