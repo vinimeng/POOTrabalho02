@@ -55,17 +55,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entidades\Tigre.cs" />
-    <Compile Include="Entidades\Humano.cs" />
-    <Compile Include="Entidades\IEntidade.cs" />
-    <Compile Include="Entidades\Jogador.cs" />
-    <Compile Include="Entidades\NPC.cs" />
+    <Compile Include="Itens\BatataFrita.cs" />
+    <Compile Include="Itens\Combo.cs" />
+    <Compile Include="Itens\IPrecoCalculavel.cs" />
+    <Compile Include="Itens\Item.cs" />
+    <Compile Include="Itens\Nuggets.cs" />
+    <Compile Include="Itens\Refresco.cs" />
+    <Compile Include="Itens\Sanduiche.cs" />
     <Compile Include="JanelaPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="JanelaPrincipal.Designer.cs">
       <DependentUpon>JanelaPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pedido.cs" />
     <Compile Include="Programa.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="JanelaPrincipal.resx">
@@ -81,6 +84,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="app.manifest" />
+    <None Include="DiagramaDeClasse.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
