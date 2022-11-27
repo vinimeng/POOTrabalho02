@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Exercicio02.Itens
+﻿namespace Exercicio02.Itens
 {
     internal class Sanduiche : Item
     {
@@ -14,6 +8,11 @@ namespace Exercicio02.Itens
         {
             LinhaNobre = linhaNobre;
             AdicionalLinhaNobre = adicionalLinhaNobre;
+        }
+
+        public override double GetPreco()
+        {
+            return LinhaNobre ? AdicionalLinhaNobre + Preco : Preco;
         }
     }
 }

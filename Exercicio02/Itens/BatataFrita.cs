@@ -1,17 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Exercicio02.Itens
+﻿namespace Exercicio02.Itens
 {
     internal class BatataFrita : Item
     {
-        private double QuantidadeEmGramas;
-        public BatataFrita(string nome, double preco, double quantidadeEmGramas) : base(nome, preco)
+        private int QuantidadeEmGramas;
+        public BatataFrita(string nome, double preco, int quantidadeEmGramas) : base(nome, preco)
         {
             QuantidadeEmGramas = quantidadeEmGramas;
+        }
+
+        public override double GetPreco()
+        {
+            return Preco;
         }
     }
 }

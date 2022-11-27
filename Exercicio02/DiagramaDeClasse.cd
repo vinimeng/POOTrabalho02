@@ -1,60 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Exercicio02.Itens.BatataFrita">
-    <Position X="8.5" Y="3" Width="1.5" />
+    <Position X="8.5" Y="3" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
       <FileName>Itens\BatataFrita.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Exercicio02.Itens.Combo">
-    <Position X="17.25" Y="3" Width="1.5" />
+    <Position X="17.25" Y="3.25" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAEAAAAAIAAAAAAAAAAAAABAAAAAAAAAE=</HashCode>
       <FileName>Itens\Combo.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Orientation="Right" Position="0.96" />
+    <Lollipop Orientation="Right" Position="1.032" />
   </Class>
   <Class Name="Exercicio02.Itens.Item">
     <Position X="13" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAEAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAABAAEAAEAAAA=</HashCode>
       <FileName>Itens\Item.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Exercicio02.Itens.Nuggets">
-    <Position X="15.25" Y="3" Width="1.5" />
+    <Position X="15" Y="3" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAABAAAAAAAAAA=</HashCode>
       <FileName>Itens\Nuggets.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Exercicio02.Itens.Refresco">
-    <Position X="13" Y="3" Width="1.5" />
+    <Position X="13" Y="3" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAAAA=</HashCode>
       <FileName>Itens\Refresco.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Exercicio02.Itens.Sanduiche">
-    <Position X="10.75" Y="3" Width="1.5" />
+    <Position X="10.75" Y="3" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAABABAAAAAAAA=</HashCode>
       <FileName>Itens\Sanduiche.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Exercicio02.Pedido">
     <Position X="17.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAgAAAAAAAAAAAQAAIAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAEAAAAAIAAAAAgAAAAQAAAAABQAAAAAA=</HashCode>
       <FileName>Pedido.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Orientation="Right" Position="0.862" />
+    <Lollipop Orientation="Right" Position="0.668" />
   </Class>
   <Interface Name="Exercicio02.Itens.IPrecoCalculavel">
     <Position X="19.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Itens\IPrecoCalculavel.cs</FileName>
     </TypeIdentifier>
   </Interface>

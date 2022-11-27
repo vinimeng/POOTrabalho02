@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Exercicio02.Itens
+﻿namespace Exercicio02.Itens
 {
     internal class Nuggets : Item
     {
@@ -13,6 +7,11 @@ namespace Exercicio02.Itens
         public Nuggets(string nome, double preco, int quantidadeEmUnidade) : base(nome, preco)
         {
             QuantidadeEmUnidade = quantidadeEmUnidade;
+        }
+
+        public override double GetPreco()
+        {
+            return Preco;
         }
     }
 }
