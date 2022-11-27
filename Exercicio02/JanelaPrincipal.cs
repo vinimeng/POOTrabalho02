@@ -129,7 +129,7 @@ namespace Exercicio02
                     Items.Add(new Refresco(nome, preco, ml));
                     break;
                 case "Sanduíche":
-                    var adicionalPreco = Convert.ToInt32(numAdicionalLinhaNobreItem.Value);
+                    var adicionalPreco = Convert.ToDouble(numAdicionalLinhaNobreItem.Value);
                     var adicionalCheck = checkBoxLinhaNobre.Checked;
 
                     Items.Add(new Sanduiche(nome, preco, adicionalCheck, adicionalPreco));

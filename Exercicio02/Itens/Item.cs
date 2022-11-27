@@ -15,7 +15,7 @@
 
         public override string ToString()
         {
-            return Nome + " - " + Preco.ToString("c");
+            return Nome + " - " + GetPreco().ToString("c");
         }
     }
 }
