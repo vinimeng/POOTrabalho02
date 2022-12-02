@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Exercicio02.Itens.BatataFrita">
-    <Position X="8.5" Y="3" Width="2" />
+    <Position X="8.5" Y="3.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
       <FileName>Itens\BatataFrita.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Exercicio02.Itens.Combo">
-    <Position X="17.25" Y="3.25" Width="2" />
+    <Position X="17.25" Y="3.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAEAAAAAIAAAAAAAAAAAAABAAAAAAAAAE=</HashCode>
       <FileName>Itens\Combo.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Orientation="Right" Position="1.032" />
+    <Lollipop Orientation="Right" Position="1.074" />
   </Class>
   <Class Name="Exercicio02.Itens.Item">
     <Position X="13" Y="0.5" Width="1.5" />
@@ -23,21 +23,21 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Exercicio02.Itens.Nuggets">
-    <Position X="15" Y="3" Width="2" />
+    <Position X="15" Y="3.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAABAAAAAAAAAA=</HashCode>
       <FileName>Itens\Nuggets.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Exercicio02.Itens.Refresco">
-    <Position X="13" Y="3" Width="1.75" />
+    <Position X="13" Y="3.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAAAA=</HashCode>
       <FileName>Itens\Refresco.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Exercicio02.Itens.Sanduiche">
-    <Position X="10.75" Y="3" Width="1.75" />
+    <Position X="10.75" Y="3.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAABABAAAAAAAA=</HashCode>
       <FileName>Itens\Sanduiche.cs</FileName>
